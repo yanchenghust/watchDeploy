@@ -6,7 +6,7 @@
 本程序通过本地文件变动的监控，将有变动的文件自动上传到测试机。当然，测试机需要一个接收的端口，为了方便起见，使用http（即普通的web请求）来上传文件。    
 ***
 # 运行时截图
-![image](https://github.com/yanchenghust/watchDeploy/raw/image.png)    
+![image](https://github.com/yanchenghust/watchDeploy/blob/master/image.png)    
 ***
 # 文件变动监控
 采用C#的FileSystemWatcher来监控文件变动并上传。    
